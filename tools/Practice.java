@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 class Bungalow {
     public void properties() {
-        System.out.println("Some rooms, living room, kitchen, and toilet");
+        System.out.print("Some rooms, living room, kitchen, and toilet");
     }
 }
 
@@ -19,6 +19,6 @@ public class Practice {
 
         // Retrieve an element using get
         String element = list.get(1);
-        System.out.print("Element at index 1: " + element);
+        System.out.printf("\nElement at index 1: " + element);
     }
 }
